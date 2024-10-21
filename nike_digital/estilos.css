@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#cabecera {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/fondo.jpg);
+    background-size: contain; 
+    padding: 20vw;
+}
+#cabecera li {
+    display: inline-block;
+}
+#cabecera a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 80px;
+}
+
+.fuentePequena {
+    font-weight: normal;
+    color: lightgray;
+    font-size: 20px;
+}
+h2 {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+#text {
+    padding-bottom: 100px;
+}
+p {
+    padding-top: 30px;
+    font-size: 24px;
+}
+img {
+    width: 100%;
+}
+#medio {
+    padding: 10%;
+}
+
+#pie {
+    background-color: black;
+    padding: 10%;
+    color: aliceblue;
+    font-size: 50px;
+}
+ul {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+li {
+    margin-top: 30px;    
+}
+li a {
+    font-weight: normal;
+    color: lightgray;
+    font-size: 20px;
+    text-decoration: none;
+}
+li a[href*="#"]:hover {
+text-decoration: line-through;
+}
+a[href*="https://easda.es/"]:hover,[href*="img/fondo.jpg"]:hover {
+text-decoration: underline;
+color: black;
+
+}
