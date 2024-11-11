@@ -1,7 +1,17 @@
 header {
-background-color: aqua;
-
+    background-color: aqua;
 }
-main {
-    background-color: blueviolet;
+
+section {
+    background-color: beige;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
 }
