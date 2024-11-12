@@ -1,17 +1,27 @@
 header {
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Times New Roman', Times, serif;
+font-size: 2vw;
 }
-
+h1 {
+    margin: 2.5vw;
+}
 section {
-    background-color: beige;
+    ;
 }
 
 img {
-    width: 30%;
+    width: 40%;
     height: auto;
     filter: saturate(0);
+    margin: 2.5vw;;
 }
-
+a{
+    text-decoration: none;
+}
 a:hover img {
     filter: saturate(1);
+}
+.padre {
+    justify-content: space-between;
+    align-items: center;
 }
