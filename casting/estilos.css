@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+section {
+    background-color: aqua;
+    width: 450px;
+    height: 450px;
+
+}
