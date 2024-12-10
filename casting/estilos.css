@@ -2,11 +2,45 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    background-color:rgb(236, 231, 255);
+    justify-content: space-around;
 }
 section {
-    background-color: aqua;
-    width: 450px;
-    height: 450px;
-
+    background-color: white;
+    width: 30%;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: gray;
+    border-width: 2px;
 }
+h1 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+}
+#serif{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+}
+#sans{
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+#monospace {
+    font-family: "VT323", serif;
+  }
+#cursive {
+    font-family: "Tangerine", serif;
+  }
+
+#fantasy{
+    font-family: "Jolly Lodger", serif;
+  }
+
