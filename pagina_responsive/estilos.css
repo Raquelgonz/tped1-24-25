@@ -15,10 +15,11 @@
     }
     #libro {
         border-radius: 100px;
-        width: 85px;
+        width: 150px;
         position: relative;
-        top: 75px;
+        top: 10px;
         left: 30px;
+        background-color: white;
     }
     ul {
         background-color:white;
@@ -28,10 +29,14 @@
         display: inline;
         padding-right: 20px;
     }
+    main {
+       
+    }
 
     aside {
         width: 25vw;
         margin: 20px;
+        margin-top: 70px;
     }
     a {
         color: white;
@@ -43,20 +48,24 @@
         padding: 10px;
         border-radius: 30px;
         margin: 5px;
+        font-family:Arial, Helvetica, sans-serif;
     }
     #boton1 {
-        background-color:rgb(0, 42, 255);
+        background-color:rgb(255, 158, 61);
     }
     #boton2 {
         background-color:rgb(241, 243, 255);
-        color:rgb(0, 42, 255);
-        border: 1px solid gainsboro;
+        color:rgb(255, 158, 61);
+        border: 1px solid rgb(238, 226, 199)
     }
     table {
         width: 100%;
+        padding-left: 5px;
+        padding-top: 20px;
     }
     .derecha {
         text-align: right;
+        padding-right: 50px;
     }
     main {
         display: flex;
@@ -67,12 +76,14 @@
     section {
         width: 75vw;
         padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     h1 {
-        font-size: small;
+        font-size: 50px;
+        margin-bottom: 0;
     }
     hr {
-        border-color: gainsboro;
+        border-color: rgb(165, 141, 255);
     }
     #galeria {
         display: flex;
@@ -88,9 +99,204 @@
         margin: 5px;
     }
 }
-
-@media (min-width: 576px) {
-
+@media (min-width: 480px) and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+    header {
+        background-image: url(fotos/cabecera.jpg);
+        background-size: cover;
+        height: 200px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-color: rgb(165, 141, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        text-align: center;
+    }
+    #libro {
+        border-radius: 100px;
+        width: 150px;
+        background-color: white;
+    }
+    ul {
+        background-color: white;
+        height: auto;
+        padding: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: center; 
+        gap: 20px;
+    }
+    li {
+        display: inline;
+        font-size: 18px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    aside {
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    .boton {
+        width: 90%;
+        text-align: center;
+        padding: 12px;
+        border-radius: 30px;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #boton1 {
+        background-color: rgb(255, 158, 61);
+    }
+    #boton2 {
+        background-color: rgb(241, 243, 255);
+        color: rgb(255, 158, 61);
+        border: 1px solid rgb(238, 226, 199);
+    }
+    table {
+        width: 100%;
+        font-size: 16px;
+        padding: 0;
+    }
+    .derecha {
+        text-align: right;
+        padding-right: 20px;
+    }
+    section {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    hr {
+        border-color: rgb(165, 141, 255);
+    }
+    #galeria {
+        display: flex;
+        flex-direction: column;
+    }
+    #filas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #filas > img {
+        width: 48%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
 }
-@media (min-width: 768px) {...}
-@media (min-width: 992px) {...}
+
+@media (max-width: 480px) {
+    body {
+        margin: 0;
+    }
+    header {
+        background-image: url(fotos/cabecera.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-color: rgb(165, 141, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    #libro {
+        border-radius: 100px;
+        width: 120px;
+        position: relative;
+        background-color: white;
+    }
+    ul {
+        background-color: white;
+        height: auto;
+        padding: 10px;
+        list-style: none;
+        text-align: center;
+    }
+    li {
+        display: block;
+        padding: 10px 0;
+    }
+    main {
+        display: flex;
+        flex-direction: column; /* Contenido en columna */
+        margin-top: 10px;
+    }
+    aside {
+        width: 100%; /* Ocupa todo el ancho */
+        margin: 10px 0; /* Margen vertical */
+        text-align: center; /* Centrar contenido */
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    .boton {
+        width: 80%;
+        text-align: center;
+        padding: 8px;
+        border-radius: 30px;
+        margin: 5px auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #boton1 {
+        background-color: rgb(255, 158, 61);
+    }
+    #boton2 {
+        background-color: rgb(241, 243, 255);
+        color: rgb(255, 158, 61);
+        border: 1px solid rgb(238, 226, 199);
+    }
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+    .derecha {
+        text-align: right;
+        padding-right: 10px;
+    }
+    section {
+        width: 100%;
+        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    hr {
+        border-color: rgb(165, 141, 255);
+        width: 80%;
+    }
+    #galeria {
+        display: flex;
+        flex-direction: column;
+    }
+    #filas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #filas > img {
+        width: 80%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+}
