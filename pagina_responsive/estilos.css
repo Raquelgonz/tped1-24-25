@@ -1,54 +1,96 @@
-body{
-    background-image: url(img/fondo-1400x860.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
- }
- main {
-     display: flex;
-     height: 70vh;
- }
- ul {
-     text-align: right;
-     padding-right: 40px;
-     color: white;
-     font-size: medium;
- }
- ul li {
-     list-style: none;
-     display: inline-block;
-     margin-left: 20px;
- }
- #boton {
-     background-color: cornflowerblue;
-     color: white;
-     width: 180px;
-     text-align: center;
-     padding: 10px;
-     border-radius: 5px;
- }
- #col2{
-     align-content: flex-end;
- }
- .columna {
-     width: 50%;
-     padding-left: 40px;
-     padding-right: 40px;
- }
- hr {
-     border-color: black;
- }
- #foot1 {
-     background-color: rgb(36, 36, 36);
-     padding: 20px;
-     padding-left: 40px;
-     color: white;
-     border-bottom-width: 1px;
-     border-bottom-color: white;
-     border-bottom-style: solid;
- }
- span {
-     color: gold;
- }
+@media (min-width: 1200px) {
+    body {
+        margin: 0;
+    }
+    header {
+        background-image: url(fotos/cabecera.jpg);
+        background-size: cover;
+        height: 180px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: rgb(165, 141, 255);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+    #libro {
+        border-radius: 100px;
+        width: 85px;
+        position: relative;
+        top: 75px;
+        left: 30px;
+    }
+    ul {
+        background-color:white;
+        height: 60px;
+    }
+    li {
+        display: inline;
+        padding-right: 20px;
+    }
+
+    aside {
+        width: 25vw;
+        margin: 20px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    .boton {
+        width: 80%;
+        text-align: center;
+        padding: 10px;
+        border-radius: 30px;
+        margin: 5px;
+    }
+    #boton1 {
+        background-color:rgb(0, 42, 255);
+    }
+    #boton2 {
+        background-color:rgb(241, 243, 255);
+        color:rgb(0, 42, 255);
+        border: 1px solid gainsboro;
+    }
+    table {
+        width: 100%;
+    }
+    .derecha {
+        text-align: right;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    section {
+        width: 75vw;
+        padding: 10px;
+    }
+    h1 {
+        font-size: small;
+    }
+    hr {
+        border-color: gainsboro;
+    }
+    #galeria {
+        display: flex;
+        flex-direction: column;
+    }
+    #filas {
+        display: flex;
+        justify-content: space-between;
+    }
+    #filas > img {
+        width: 24%;
+        border-radius: 5px;
+        margin: 5px;
+    }
+}
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {...}
+@media (min-width: 992px) {...}
