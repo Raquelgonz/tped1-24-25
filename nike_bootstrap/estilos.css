@@ -37,24 +37,24 @@ p {
     color: aliceblue;
     font-size: 50px;
 }
-#pie ul {
+#medio ul {
     list-style-type: none; 
     padding-left: 0;
 }
 
-#pie li {
+#medio li {
     margin-top: 30px;    
 }
-#pie li a {
+#medio li a {
     font-weight: normal;
     color: lightgray;
     font-size: 20px;
     text-decoration: none;
 }
-#pie li a[href*="#"]:hover {
+#medio li a[href*="#"]:hover {
 text-decoration: line-through;
 }
-#pie a[href*="https://easda.es/"]:hover,[href*="img/fondo.jpg"]:hover {
+#medio a[href*="https://easda.es/"]:hover,[href*="img/fondo.jpg"]:hover {
 text-decoration: underline;
 color: black;
 
