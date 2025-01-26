@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}  
+  
+header {
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nombre{
+    margin-left:30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+ul {
+    margin-right: 30px;
+    list-style: none;
+    text-align: right;
+}
+li {
+    margin-left: 20px;
+    display: inline;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+header a:link {
+    text-decoration: none;
+    color: #e7ecff;
+}
+header a:visited {
+    text-decoration: none;
+    color: #e7ecff;
+}
+header a:hover {
+    color: #FFEEB3;
+}
+
+
+#inicio  {
+    height: 100vh;
+    background-image: url(img/gif_autoretrato.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#works {
+    width: 100%;
+    background-color: #ab96e3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vw;
+    color: #1A1933;
+    margin: 0%;
+    padding: 5vw;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    color: #1A1933;
+    margin: 0%;
+}
+.trabajos {
+    display: flex;
+    flex-wrap: nowrap  ;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 2vw;
+    color: #1A1933;
+    margin: 0%;
+    padding: 3vw;
+    background-color: #e7ecff;
+    width: 70vw;
+    margin-bottom: 5vw;
+}	
+#proximamente {
+    font-family: Arial, sans-serif;
+    font-size: 1.5vw;
+    color: #1A1933;
+    margin: 0%;
+    padding: 10vw;
+   
+}
+
+footer {
+    width: 100%;
+    background-color: #1A1933;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+   
+}	
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20vw;
+    color: #ab96e3;
+    margin: 0%;
+    padding-top: 20vw;
+}
