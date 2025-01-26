@@ -7,7 +7,7 @@ header {
     height: 100px;
     width: 100%;
     background-color: transparent;
-    position: fixed;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,45 +38,4 @@ header a:visited {
 }
 header a:hover {
     color: #FFEEB3;
-}
-
-main {
-background-color: #1A1933;
-height: 100vh;
-
-}
-#caja {
-    padding-top: 20vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
-}
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #e7ecff;
-    text-align: left;
-    margin: 0;
-    font-size: 10vw;
-}
-p {
-    font-family: Arial, sans-serif;
-    color: #e7ecff;
-    text-align: left;
-    margin: 0;
-    font-size: 2vw;
-    padding-top: 5vh;
-}
-main ul {
-    list-style: none;
-    text-align: center;
-    padding-top: 5vh;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap ;
-    align-items: center;
-}
-main li {
-    font-size: 2vw;
-    padding: 5vw;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #F26E50;
 }
